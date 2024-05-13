@@ -1,0 +1,67 @@
+.body {
+    background-image: url(../img/iyaindah.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* Mengatur konten ke tengah secara horizontal */
+    flex-direction: column; /* Menata elemen dalam satu kolom */
+  }
+  
+  /* CSS untuk mengatur gaya card */
+  /* CSS untuk mengatur gaya card */
+  .card {
+  background-color: #9adde9;
+  border-radius: 20px;
+  padding: 40px;
+  margin: auto;
+  max-width: 600px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  }
+  
+  
+  /* CSS untuk tombol */
+  button {
+  background-color: #ed8026; /* Warna latar belakang hijau */
+  color: #ffffff; /* Warna teks putih */
+  padding: 10px 20px; /* Memberi jarak antara teks dan tepi tombol */
+  border: none; /* Menghapus garis tepi */
+  border-radius: 5px; /* Membulatkan sudut tombol */
+  cursor: pointer; /* Menampilkan kursor pointer saat hovering tombol */
+  font-size: 16px; /* Ukuran teks dalam tombol */
+  margin-top: 10px; /* Memberi jarak antara tombol dan elemen di atasnya */
+  }
+  
+  /* Atur posisi tombol di dalam form */
+  .button-container {
+  display: flex; /* Menggunakan flexbox */
+  justify-content: space-around; /* Tombol-tombol sejajar di kiri dan kanan */
+  }
+  
+  /* Tambahkan hover effect pada tombol */
+  button:hover {
+  background-color: #f0d343; /* Warna latar belakang hijau yang lebih gelap saat hovering */
+  }
+  
+  /* Atur tata letak tombol "Sebelumnya" */
+  button[type="button"].prev {
+  margin-right: auto;
+  }
+  
+  /* Atur tata letak tombol "Selanjutnya" */
+  button[type="submit"] {
+  margin-left: auto;
+  }
+  
+  /* Atur font-size untuk responsif */
+  @media (max-width: 768px) {
+  .card {
+    padding: 15px; /* Kurangi padding untuk perangkat berukuran kecil */
+  }
+  button {
+    font-size: 14px; /* Kurangi ukuran teks tombol untuk perangkat berukuran kecil */
+  }
+  
+  }
